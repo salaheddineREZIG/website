@@ -4,7 +4,7 @@ addEventListener("DOMContentLoaded", function() {
         let password = document.querySelector('#password').value;
         if (username === 'salah' && password === 'salah123') {
 
-            document.write('hello salah');
+            alert('hello salah');
         } else {
             alert('shutup idiot');
         }
